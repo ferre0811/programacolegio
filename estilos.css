@@ -1,0 +1,999 @@
+
+
+ul {
+    margin: auto;
+    margin-top: 25vh;
+    margin-left: 25vh;
+    border: 2px;
+    font-size: 20px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(17, 213, 216, 0.774)
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 20px;
+    width: 60%;
+    max-width: 35vh;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn, .btn2{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 50px 235px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn:hover, .btn2:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn:active, .btn2:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn-container .btn2-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none; /* Evita que el contenedor genere bordes */
+}
+
+@media (max-width: 600px) {
+    .btn-container {
+        flex-direction: column; /* Apila los botones */
+        align-items: center;
+        width: 100%; /* Asegura que el contenedor ocupe toda la pantalla */
+    }
+    .btn {
+        width: 80%; /* Ajuste para móviles */
+        font-size: 1rem;
+        margin: 20px auto; /* Centra los botones sin afectar el diseño */
+    }
+}
+.btn2{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 230px 270px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn2:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn2:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn2-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+h1, h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn3{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 100px 295px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn3:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn3:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn3-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+
+.btn4{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 15px 17px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn4:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn4:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn4-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+
+.btn5{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 115px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn5:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn5:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn5-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+
+.btn6{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 230px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn6:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn6:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn6-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+
+.btn7{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 20px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn7:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn7:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn7-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+
+.btn8{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 20px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn8:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn8:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn8-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+
+.btn9{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 550px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn9:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn9:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn9-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+
+.btn10{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 25px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn10:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn10:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn10-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn11{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn11:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn11:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn11-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn12{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn12:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn12:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn12-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn13{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn13:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn13:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn13-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+
+.btn14{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn14:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn14:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn14-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn15{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 100px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn15:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn15:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn15-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn16{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 100px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn16:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn16:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn16-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn17{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn17:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn17:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn17-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn18{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn18:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn18:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn18-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn19{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn19:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn19:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn19-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn20{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn20:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn20:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn20-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn21{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 500px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn21:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn21:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn21-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn22{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 50px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn22:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn22:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn22-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn23{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn23:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn23:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn23-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn24{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn24:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn24:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn24-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn25{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn25:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn25:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn25-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn26{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn26:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn26:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn26-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
+.btn27{
+    background-color: #4f46e5; /* Color normal del botón */
+    color: white;
+    padding: 15px 95px;
+    font-size: 18px;
+    margin: 20px 30px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Animación */
+.btn27:hover:hover {
+    background-color: #0fa9c4;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(180, 131, 131, 0.4);
+}
+
+.btn27:active {
+    transform: scale(0.98);
+}
+/* Para evitar que estén dentro de un bloque */
+.btn27-container {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    align-items: center;
+    width: 90%; /* Ajusta el ancho */
+    margin: auto;
+    background: none; /* Asegura que no haya fondo */
+    box-shadow: none;
+}
